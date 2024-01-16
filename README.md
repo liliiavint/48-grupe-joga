@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/liliiavint/48-grupe-ufo
+Site published at: https://github.com/liliiavint/48-grupe-joga
 
 Design: [Joga](https://dribbble.com/shots/6857288/attachments/6857288-Yoga-studio-web-ui-concept?mode=media)
 ![joga noutrauka](./yoga.png)
@@ -46,7 +46,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/liliiavint/48-grupe-ufo
+    git clone https://github.com/liliiavint/48-grupe-joga
     ```
 2. Install NPM packages
     ```sh
