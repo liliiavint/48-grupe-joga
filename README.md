@@ -16,7 +16,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 Site published at: https://github.com/liliiavint/48-grupe-ufo
 
 Design: [Joga](https://dribbble.com/shots/6857288/attachments/6857288-Yoga-studio-web-ui-concept?mode=media)
-
+![joga noutrauka](./yoga.png)
 ## 🎯 Project features/goals
 
 -   Github pages
