@@ -1,0 +1,30 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/joga.jpg);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20%;
+} 
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{
+list-style-type:none;
+padding-left: 0;
+margin-left: 0;
+
+}
+.menu a{
+text-decoration: none;
+font-family: sans-serif;
+color: gray;
+display: inline-block;
+padding: 10px 20px;
+border-bottom:3px red;
+}
+.manu li{
+    float: left;
+}
