@@ -4,9 +4,9 @@ body{
     background-image: url(../img/joga.jpg);
 }
 .menu{
+    
     list-style-type:none;
-    padding-left: 0;
-      
+        
     
     
     }
@@ -14,18 +14,21 @@ body{
     text-decoration:none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
-    display: inline-block;
-    padding: 5px 5px;
-    border-bottom:5px red;
+    float: right;
+    padding: 5px 15px;
+    border-bottom:20px red;
     }
-    .menu li{
-        float: right;
-       
-    }
+    
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 20%;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.colortext{
+    color: orangered;
 } 
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
 }
