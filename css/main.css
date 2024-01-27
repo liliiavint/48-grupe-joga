@@ -21,7 +21,7 @@ body{
     float: right;
     padding: 5px 15px;
     .menu a:hover {
-    border-bottom:  
+    border-bottom: 2px, black;
     }
     
 h1{
