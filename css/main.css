@@ -9,22 +9,31 @@ body {
     background-repeat: no-repeat;
     background-image: url(../img/joga.jpg);
 }
+.head{
+
+}
 .menu{
-    
+    display: flex;
     list-style-type:none;
-        
+       
     
     
-    }
-    .menu a{
+}
+    .myg {
+    display: inline-block;
     text-decoration:none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
-    float: right;
     padding: 5px 15px;
-    border-bottom:20px red;
+    margin-right: 0; 
     }
-    
+    .myg:hover{
+        border-bottom: red;
+    }
+.cont{
+    display: flex;
+    margin-top: 20%;
+}
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -38,7 +47,7 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 5%;
 }
-.styled {
+.btn {
     border: 0;
     line-height: 2.5;
     margin: 8%;
@@ -49,6 +58,9 @@ p{
     color: #fff;
     border-radius: 10px;
     background-color: rgb(220, 81, 0);
+    
+  }
+  .btn:hover{
     
   }
   
