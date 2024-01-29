@@ -30,27 +30,36 @@ body {
     .myg:hover{
         border-bottom: red;
     }
-.cont{
+    .cont{
+        display: flex;
+        justify-content: left;
+        background-color: aqua;
+        margin-top: 15%;
+        margin-left: 5%;
+     }
+.column-left{
     display: flex;
-    margin-top: 20%;
+    margin-top: 0;
+    background-color: blue;
+  
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    margin-top: 10%;
-    margin-left: 5%;
+   
 }
 .colortext{
     color: orangered;
 } 
-p{
+.fut{
+    margin-top: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 5%;
 }
 .btn {
     border: 0;
     line-height: 2.5;
-    margin: 8%;
+    margin-top: 8%;
     padding: 0 20px;
     margin-left: 5%;
     font-size: 1rem;
