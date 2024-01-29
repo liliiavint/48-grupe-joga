@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'MonaSans-Medium';
+    src: url(../fonts/MonaSans-Medium.ttf);
+}
 body, body * {
     margin: 0;
     padding: 0;
@@ -26,13 +30,13 @@ body {
     .myg {
     display: inline-block;
     text-decoration:none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'MonaSans-Medium';
     color:black;
     padding: 5px 15px;
     
     }
     .myg:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(249, 127, 33);
     }
     .cont{
     display: flex;
@@ -58,17 +62,17 @@ body {
     color: orangered;
 } 
 .fut{
-    font-size: 40px;
+    font-size: 50px;
     justify-content: space-between;
     margin-top: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'MonaSans-Medium';
    
 }
 .rut{
     font-size: 20px;
     justify-content: space-between;
     margin-top: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'MonaSans-Medium';
     
 }
 .btn {
