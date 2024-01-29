@@ -10,11 +10,12 @@ body {
     background-image: url(../img/joga.jpg);
 }
 .head{
-
+    
 }
 .menu{
     display: flex;
     list-style-type:none;
+    background-color: rgb(121, 224, 23);
        
     
     
@@ -25,43 +26,56 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
     padding: 5px 15px;
-    margin-right: 0; 
+    
     }
     .myg:hover{
         border-bottom: red;
     }
     .cont{
-        display: flex;
-        justify-content: left;
-        background-color: aqua;
-        margin-top: 15%;
-        margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 5%;
+    width: 800px;
+   
+    
      }
 .column-left{
     display: flex;
-    margin-top: 0;
-    background-color: blue;
+    gap: 5px;
+    flex-direction: column;
+    margin-top: 12%;
+    margin-left: 10% ;
+    margin-right: 20%;
+    
+    
   
 }
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-   
-}
+
 .colortext{
     color: orangered;
 } 
 .fut{
+    font-size: 40px;
+    justify-content: space-between;
     margin-top: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 5%;
+    
+}
+.rut{
+    font-size: 20px;
+    justify-content: space-between;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .btn {
     border: 0;
     line-height: 2.5;
-    margin-top: 8%;
+    margin-top: 10%;
+    margin-right: 65%;
     padding: 0 20px;
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: 1rem;
     text-align: center;
     color: #fff;
@@ -70,6 +84,6 @@ h1{
     
   }
   .btn:hover{
-    
+    background-color: aqua;
   }
   
