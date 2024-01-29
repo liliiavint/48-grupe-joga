@@ -10,16 +10,19 @@ body {
     background-image: url(../img/joga.jpg);
 }
 .head{
-    
+ 
 }
 .menu{
+    height: 0;
     display: flex;
+    gap:20px;
     list-style-type:none;
-    background-color: rgb(121, 224, 23);
-       
-    
+    justify-content: end;
+    margin-top: 2%;
+    margin-right: 30px;
     
 }
+
     .myg {
     display: inline-block;
     text-decoration:none;
@@ -29,13 +32,12 @@ body {
     
     }
     .myg:hover{
-        border-bottom: red;
+    border-bottom: 2px solid red;
     }
     .cont{
     display: flex;
     flex-direction: column;
-  
-    margin-top: 5%;
+    margin-top: 6%;
     width: 800px;
    
     
@@ -60,7 +62,7 @@ body {
     justify-content: space-between;
     margin-top: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+   
 }
 .rut{
     font-size: 20px;
